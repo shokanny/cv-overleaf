@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Shokan Nakan} \\ \vspace{1pt}
+    \small +123456789 $|$ \href{mailto:x@x.com}{\underline{shokan.nakan@connect.polyu.hk}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/shokannakan}} $|$
+    \href{https://github.com/...}{\underline{github.com/shokanny}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hong Kong Polytechnical University}{Kowloon, Hong Kong}
+      {BEng (Hons) in Electrical Engineering, Minor in Business Administration}{August 2021 -- Expected 2025}
+      \resumeItem{\textbf{cGPA}: 3.48/4.3}
+      \resumeItem{\textbf{Relevant Courses}: Electrical Energy Systems Fundamentals, Electronics, Computer Programming}
+      \resumeItem{\textbf{Relevant Minor Courses}: Management \& Organisation}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+
+
+%-----------ACTIVITIES-----------
+\section{Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Service-Learning}{Phnom Penh, Cambodia}
+      {Teaching and Helping}{January 2023 - June 2023}
+      \resumeItemListStart
+        \resumeItem{Led workshops on 3D modeling and Scratch programming, enabling students to develop practical skills in creative design and coding, thereby fostering their problem-solving abilities.}
+        \resumeItem{Introduced high school students to AI concepts, sparking interest in emerging technologies}
+        \resumeItem{Installed solar panels in local schools, promoting sustainable energy solutions}
+        \resumeItem{Raised awareness about challenges in developing countries}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Qazaq Student Association}{PolyU, Hong Kong}
+      {General Assistant}{September 2022 - August 2023}
+      \resumeItemListStart
+        \resumeItem{ Helping on organizing events and activities in PolyU, introducing Kazakh culture in the university and helping new Kazakh 
+freshmen students adopt in new environment.}
+        \resumeItem{\textbf{Organized Events}: Cultural bazaar, Meeting with Consulate of Kazakhstan Republic, Sports events.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Electrical Engineering Mentorship Program }{PolyU, Hong Kong}
+      {Mentee}{September 2022 - May 2023}
+      \resumeItemListStart
+        \resumeItem{\textbf{Mentor:} Hong Kong Electric (HKE) Professional}
+        \resumeItem{Enhanced knowledge in Energy and Power Systems with HKE mentor's guidance.}
+        \resumeItem{Built a network of like-minded Electrical Engineering peers.}
+        \resumeItem{Developed analytical and problem-solving skills for sustainability.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Poka chto nichego net}}
+        
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Software}{: SolidWorks, AutoCAD, SCADA} \\
+     \textbf{Languages}{: Python, MATLAB, SQL, HTML/CSS} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib} 
+     
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
