@@ -14,7 +14,13 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{hyperref}% http://ctan.org/pkg/hyperref
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!50!red,
+  urlcolor=blue!50!black
+}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -100,7 +106,7 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%
 
 
 \begin{document}
@@ -113,9 +119,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape Shokan Nakan} \\ \vspace{1pt}
-    \small +123456789 $|$ \href{mailto:x@x.com}{\underline{shokan.nakan@connect.polyu.hk}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/shokannakan}} $|$
-    \href{https://github.com/...}{\underline{github.com/shokanny}}
+    \small  \href{mailto:shokan.nakan@connect.polyu.hk}{\underline{shokan.nakan@connect.polyu.hk}} $|$ 
+    \href{https://linkedin.com/in/shokannakan}{\underline{linkedin.com/in/shokannakan}} $|$
+    \href{https://github.com/shokanny}{\underline{github.com/shokanny}}
 \end{center}
 
 
@@ -125,29 +131,42 @@
     \resumeSubheading
       {Hong Kong Polytechnical University}{Kowloon, Hong Kong}
       {BEng (Hons) in Electrical Engineering, Minor in Business Administration}{August 2021 -- Expected 2025}
-      \resumeItem{\textbf{cGPA}: 3.48/4.3}
-      \resumeItem{\textbf{Relevant Courses}: Electrical Energy Systems Fundamentals, Electronics, Computer Programming}
-      \resumeItem{\textbf{Relevant Minor Courses}: Management \& Organisation}
+      \resumeItem{\textbf{cGPA}: 3.48/4.30}
+      \resumeItem{Recipient of a renewable \$145,000 entry scholarship in recognition of academic excellence.}
+      \resumeItem{\textbf{Relevant Courses}: Electrical Energy Systems Fundamentals, Electronics, Computer Programming, Mathematics I \& II \\ \textbf{Relevant Minor Courses}: Management \& Organisation}
+      
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
-
-
-%-----------ACTIVITIES-----------
-\section{Activities}
+\section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Service-Learning}{Phnom Penh, Cambodia}
-      {Teaching and Helping}{January 2023 - June 2023}
+      {STEM Instructor}{January 2023 - June 2023}
       \resumeItemListStart
-        \resumeItem{Led workshops on 3D modeling and Scratch programming, enabling students to develop practical skills in creative design and coding, thereby fostering their problem-solving abilities.}
-        \resumeItem{Introduced high school students to AI concepts, sparking interest in emerging technologies}
-        \resumeItem{Installed solar panels in local schools, promoting sustainable energy solutions}
-        \resumeItem{Raised awareness about challenges in developing countries}
+        \resumeItem{Successfully instructed over 50 high school students from three schools, imparting foundational knowledge in 3D modeling, Scratch programming, and Artificial Intelligence.}
+        \resumeItem{Integrated Teachable Machine and QuickDraw into the curriculum, enriching student learning experiences by enabling hands-on exploration and project development at the intersection of TM and programming using Scratch.}
+        \resumeItem{Championed sustainable energy initiatives by overseeing the installation of 10 solar panels in a rural area \href{https://livingwaterfarm.org/#}{school}, resulting in 12\% reduction in energy consumption compared to the previous month.}
+        \resumeItem{Facilitated cross-cultural collaboration, hosting professionals from diverse nations to present our initiatives, shedding light on impactful strides in educating Cambodia's youth and raising awareness of our efforts}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.instagram.com/olympic.7/}{Olympic.7 Education Centre}}{Astana, Kazakhstan}
+      {STEM Educator}{June 2022 - January 2023}
+      \resumeItemListStart
+        \resumeItem{Facilitated instruction for 100+ high school students, elevating SAT and Unified National Testing (UNT) scores by 15-20\% on average within two months, through strategic teaching and study strategy insights.}
+        \resumeItem{Nurtured student success by providing personalized guidance and leveraging experience, resulting in 15 students securing placements at prestigious universities, while a significant majority earned full scholarships for higher education in Kazakhstan.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------ACTIVITIES-----------
+\section{Activities}
+
 
   \resumeSubHeadingListStart
     \resumeSubheading
@@ -155,8 +174,8 @@
       {General Assistant}{September 2022 - August 2023}
       \resumeItemListStart
         \resumeItem{ Helping on organizing events and activities in PolyU, introducing Kazakh culture in the university and helping new Kazakh 
-freshmen students adopt in new environment.}
-        \resumeItem{\textbf{Organized Events}: Cultural bazaar, Meeting with Consulate of Kazakhstan Republic, Sports events.}
+freshmen students adapt in a new environment.}
+        \resumeItem{\textbf{Organized Events}: \href{https://www.instagram.com/p/CqADZ76P7UP/?img_index=1}{Nauryz} \href{https://www.polyu.edu.hk/en/sao/student-development-section/holistic-student-development/on-campus-intercultural-development-programmes/gcb/}{Cultural bazaar}, \href{https://www.gov.kz/memleket/entities/mfa-hongkong/press/news/details/458640?lang=en}{The meeting with the citizens of the Republic of Kazakhstan}, \\ Sports events.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -167,20 +186,18 @@ freshmen students adopt in new environment.}
       {Mentee}{September 2022 - May 2023}
       \resumeItemListStart
         \resumeItem{\textbf{Mentor:} Hong Kong Electric (HKE) Professional}
-        \resumeItem{Enhanced knowledge in Energy and Power Systems with HKE mentor's guidance.}
+        \resumeItem{Enhanced Energy and Power Systems knowledge with HKE mentor's guidance.}
         \resumeItem{Built a network of like-minded Electrical Engineering peers.}
         \resumeItem{Developed analytical and problem-solving skills for sustainability.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 %-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Poka chto nichego net}}
-        
-    \resumeSubHeadingListEnd
-
+%\section{Projects}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%          {\textbf{Poka chto nichego net}}
+%    \resumeSubHeadingListEnd
 
 
 %
@@ -188,9 +205,9 @@ freshmen students adopt in new environment.}
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Software}{: SolidWorks, AutoCAD, SCADA} \\
-     \textbf{Languages}{: Python, MATLAB, SQL, HTML/CSS} \\
-     \textbf{Libraries}{: Pandas, NumPy, Matplotlib} 
+     \textbf{Software \& Tools}{: SolidWorks, AutoCAD, SCADA, Git} \\
+     \textbf{Languages}{: Python, MATLAB, SQL, HTML/CSS, LaTeX} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib,  SciPy, Scikit-learn, PyTorch} 
      
     }}
  \end{itemize}
